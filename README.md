@@ -4,15 +4,12 @@
 AdvHunter is a defense framework designed to protect Deep Neural Networks (DNNs) from _adversarial examples_, even in black-box scenarios where the network's internal details are unknown. It leverages Hardware Performance Counters (HPCs) to monitor the microarchitectural activities of a DNN during inference. By applying Gaussian Mixture Models to the collected HPC data, AdvHunter identifies anomalies indicating whether an input is legitimate or has been altered by adversarial perturbations.
 
 ## 🖥️  System Requirements
----
 - **Operating System**: Linux (Tested on Ubuntu 18.04.6 LTS).
 - **Processor**: Intel (Tested on Intel i7-9700).
 - **Python Version**: Python 3.10.9 (Confirmed compatibility).
 - **CUDA Toolkit**: Optional for GPU acceleration during training (Tested with version 11.5, V11.5.119).
 
 ## 🛠️ Installation Guide
-
----
 - Ensure the `perf` tool is installed on your system.
 - Set up a dedicated Python virtual environment and install required dependencies:
    ```bash
@@ -22,8 +19,6 @@ AdvHunter is a defense framework designed to protect Deep Neural Networks (DNNs)
    ```
 
 ## 🚀 Step-by-Step Execution Guide
-
----
 1. **Model Training**: Train a ResNet18 model on the CIFAR10 dataset.
    ```bash
     python model_training.py
@@ -83,8 +78,6 @@ AdvHunter is a defense framework designed to protect Deep Neural Networks (DNNs)
     - `perf_untargeted_fgsm_0.1.log`
 
 ## 📚 Cite Us
-
----
 If you find our work interesting and use it in your research, please cite our paper describing:
 
 Manaar Alam and Michail Maniatakos, "_AdvHunter: Detecting Adversarial Perturbations in Black-Box Neural Networks through Hardware Performance Counters_", DAC 2024.
@@ -102,9 +95,5 @@ Manaar Alam and Michail Maniatakos, "_AdvHunter: Detecting Adversarial Perturbat
 }
 ```
 
----
-
 ## 📩 Contact Us
-
----
 For more information or help with the setup, please contact Manaar Alam at: [alam.manaar@nyu.edu](mailto:alam.manaar@nyu.edu)
