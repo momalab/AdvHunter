@@ -1,0 +1,6 @@
+torch
+numpy
+torchvision
+scikit-learn
+tqdm
+cleverhans
