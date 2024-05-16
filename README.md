@@ -1,11 +1,10 @@
 # AdvHunter: Detecting Adversarial Perturbations in Black-Box Neural Networks through Hardware Performance Counters
 
 ## 📑 Overview
-
 ---
 AdvHunter is a defense framework designed to protect Deep Neural Networks (DNNs) from _adversarial examples_, even in black-box scenarios where the network's internal details are unknown. It leverages Hardware Performance Counters (HPCs) to monitor the microarchitectural activities of a DNN during inference. By applying Gaussian Mixture Models to the collected HPC data, AdvHunter identifies anomalies indicating whether an input is legitimate or has been altered by adversarial perturbations.
-## 🖥️  System Requirements
 
+## 🖥️  System Requirements
 ---
 - **Operating System**: Linux (Tested on Ubuntu 18.04.6 LTS).
 - **Processor**: Intel (Tested on Intel i7-9700).
