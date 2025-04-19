@@ -28,7 +28,7 @@ AdvHunter is a defense framework designed to protect Deep Neural Networks (DNNs)
 
 2. **Adversarial Examples Generation**: Generate adversarial examples by specifying various arguments.
    ```bash
-   python adversarial_examples.py --model=<model> --attack_type=<attack> --attack_method=<method> --epsilon=<epsilon> --target_class=<target>
+   python adversarial_examples.py --attack_type=<attack> --attack_method=<method> --epsilon=<epsilon> --target_class=<target>
    ```
    The supported arguments are:
    - **Attack Type** (`--attack_type`): Specify `targeted` or `untargeted`.
