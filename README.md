@@ -87,11 +87,19 @@ Manaar Alam and Michail Maniatakos, "_AdvHunter: Detecting Adversarial Perturbat
 @inproceedings{DBLP:conf/dac/AlamM24,
   author       = {Manaar Alam and
                   Michail Maniatakos},
-  title        = {{AdvHunter: Detecting Adversarial Perturbations in Black-Box Neural Networks through Hardware Performance Counters}},
-  booktitle    = {61st {ACM/IEEE} Design Automation Conference, {DAC} 2024, San Francisco,
-                  CA, USA, June 23-27, 2024},
-  publisher    = {{IEEE}},
-  year         = {2024}
+  editor       = {Vivek De},
+  title        = {AdvHunter: Detecting Adversarial Perturbations in Black-Box Neural
+                  Networks through Hardware Performance Counters},
+  booktitle    = {Proceedings of the 61st {ACM/IEEE} Design Automation Conference, {DAC}
+                  2024, San Francisco, CA, USA, June 23-27, 2024},
+  pages        = {184:1--184:6},
+  publisher    = {{ACM}},
+  year         = {2024},
+  url          = {https://doi.org/10.1145/3649329.3655682},
+  doi          = {10.1145/3649329.3655682},
+  timestamp    = {Sat, 30 Nov 2024 21:10:02 +0100},
+  biburl       = {https://dblp.org/rec/conf/dac/AlamM24.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
 
